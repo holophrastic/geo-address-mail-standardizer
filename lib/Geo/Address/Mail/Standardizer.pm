@@ -1,7 +1,7 @@
 package Geo::Address::Mail::Standardizer;
 use Moose::Role;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 requires 'standardize';
 
