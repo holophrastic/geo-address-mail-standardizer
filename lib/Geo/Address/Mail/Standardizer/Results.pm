@@ -1,5 +1,7 @@
 package Geo::Address::Mail::Standardizer::Results;
 use Moose;
+use MooseX::Storage;
+with 'MooseX::Storage::Deferred';
 
 has 'changed' => (
     is  => 'rw',
